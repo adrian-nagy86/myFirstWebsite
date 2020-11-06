@@ -1,0 +1,94 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url(assets/topography.png);
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.2;
+        }
+
+        header {
+            background-color: #333333;
+            padding: 10px;
+            min-height: 50px;
+        }
+        
+        
+        ul {
+            list-style-type: none;
+            display: flex;
+            line-height: 2em;
+        }
+
+        a {
+            color: #ff0099;
+            padding: 20px;
+            padding-right: 0;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            color: #e0accb;
+            transition: 0.25s;
+        }
+
+        .container {
+            padding: 0 10%;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        article {
+            padding: 10px 0;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Vollkorn', serif;
+        }
+
+        h1 {
+            padding: 40px 0 10px;  
+            font-size: 2.5em; 
+        }
+
+        h2, h3 {
+            padding: 10px 0;
+            margin: 10px 0;
+            line-height: 1.5em;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        h3 {
+            color: #ff0099;;
+            font-weight: 500;
+            font-size: 1.7em;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .separator {
+            text-align: center;
+            line-height: 2em;
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+
+        .right-align {
+            text-align: right;
+        }
